@@ -1,0 +1,5 @@
+cantidad=float(input("Que cantidad que quieres invertir: "))
+interes=float(input("Que interes anual vas a tener: "))
+años=float(input("Cuantos años: "))
+capital=cantidad*(1+interes/100*años)
+print (capital)
