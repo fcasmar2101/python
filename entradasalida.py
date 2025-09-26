@@ -1,0 +1,6 @@
+altura=input("Introduce un numero")
+base=input("Introduce un numero")
+area=int(altura)*int(base)
+perimetro=int(base)+int(base)+int(altura)+int(altura)
+print(perimetro)
+print(area)
