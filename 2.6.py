@@ -1,0 +1,5 @@
+frase = input("Introduce una frase: ")
+vocal = input("Introduce una vocal: ")
+vocal2 = vocal.upper()
+frase2 = frase.replace(vocal.lower(), vocal2).replace(vocal.upper(), vocal2)
+print("Frase modificada:", frase2)
