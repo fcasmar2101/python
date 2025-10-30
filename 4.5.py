@@ -5,4 +5,4 @@ intereses=0
 for i in range(años):
     intereses=(cantidad*interes)/100
     cantidad+=intereses
-    print (f"Tu capital el años {i} sera de {cantidad}")
+    print (f"Tu capital el año {i} sera de {cantidad}")
