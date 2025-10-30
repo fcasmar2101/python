@@ -1,4 +1,4 @@
-peso=float(input("Introduce tu peso en KG: "))
-altura=float(input("Introduce tu peso en CM: "))
-imc=int(peso)/(altura)**2
+peso=int(input("Introduce tu peso en KG: "))
+altura=int(input("Introduce tu peso en CM: "))
+imc=(peso)/(altura+altura)
 print(f"Tu IMC es: ", round(imc,2))
